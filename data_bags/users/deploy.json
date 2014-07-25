@@ -1,0 +1,12 @@
+{
+  "id": "deploy",
+  // generate this with: openssl passwd -1 "plaintextpassword"
+  "password": "1$Nv6M3bsk$hJ1oJuCG45xGI1xbKCn3r.",
+  // the below should contain a list of ssh public keys which should
+  // be able to login as deploy
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOCy6M2j8DyPlLPhvkpvDEkdmia2RFIrZZwwlw5Va0OYaC9dH1+CfKMX/QMUj22xdZ+yLmKPRj4VJPXt7b4Tju6N/LGqtv45Ln1f7IWft729iyo0eyerRQpUcL5s7o9hSao/4ffOkSayhnU1GX1paFLbDcfQ2BohspJC+DRh9D8ObJDK5RyyNy0gx4va0qRYhNc/g/QKgVAOm+svILERv5/pSP6sMdp2yTL4GQ82NWm+0wzFh6Eh9M35ykIxqKc6VnjnhzMtmrnIR66aHQ63ozpmE5skVyz0gLa/tS73+Cw5LcRXSoerLiSg3jfWRqgJSAa6BW8Gof2CXu/Gi7jrIr elliot@elliotbetancourt.com"
+  ],
+  "groups": [ "sysadmin"],
+  "shell": "\/bin\/bash"
+}

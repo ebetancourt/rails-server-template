@@ -1,5 +1,1 @@
-data_bags/users/*.json
 cookbooks/**/*
-nodes/*.json
-.ruby-version
-.ruby-gemset
