@@ -1,4 +1,7 @@
 {
+  "automatic": {
+    "ipaddress": "192.241.244.220"
+  },
   "environment":"production",
   "authorization": {
       "sudo": {
@@ -44,7 +47,7 @@
       "password" : {
         // this should be generated with:
         // openssl passwd -1 "plaintextpassword"
-        "postgres" : ""
+        "postgres" : "$1$RRyZOzTD$X4TTIjeNKHeShXQnAPaQC1"
       }
     },
   "run_list":
